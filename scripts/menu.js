@@ -1,3 +1,12 @@
+/*Menu inicio*/
+const start = document.querySelector("#start")
+start.addEventListener("click", (s) => {
+    s.preventDefault();
+
+    const sectionS = document.querySelector(".banner");
+    sectionS.scrollIntoView({behavior: "smooth"});
+})
+
 /*Menu beneficios*/
 const benefits = document.querySelector("#benefits")
 benefits.addEventListener("click", (b) => {

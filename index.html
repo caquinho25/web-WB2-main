@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,14 +7,7 @@
   <title> WellnessBuddy </title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="styles/MenuOptions.css">
-  <link rel="stylesheet" href="styles/Banner.css">
-  <link rel="stylesheet" href="styles/PreviousBenefits.css">
-  <link rel="stylesheet" href="styles/Benefits.css">
-  <link rel="stylesheet" href="styles/Testimonies.css">
-  <link rel="stylesheet" href="styles/Download.css">
-  <link rel="stylesheet" href="styles/Footer.css">
-
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
 <!--Diseño de Menú-->
@@ -21,7 +15,7 @@
   <div class="containerMenu">
     <div class="boxM col1">
       <div class="contourLogo">
-        <img src="images/logoW.png" class="logoW" alt="">     
+        <img src="images/logoW.png" class="logoW" alt="">
       </div>
 
       <div class="productName">
@@ -32,7 +26,7 @@
     <div class="boxM col2">
       <nav>
         <ul>
-          <li><a href="#">Inicio</a></li>
+          <li><a href="#" id="start">Inicio</a></li>
           <li><a href="#" id="benefits">Beneficios</a></li>
           <li><a href="#" id="customers">Clientes</a></li>
           <li><a href="#" id="contact">Contacto</a></li>
@@ -58,7 +52,7 @@
         </p>
 
         <div>
-          <a href="#" class="btnBanner">Comienza Gratis</a>
+          <a href="login.html" class="btnBanner">Comienza Gratis</a>
         </div>
       </div>
 
@@ -93,6 +87,28 @@
                 <p>
                     Sugerencias basadas en análisis de datos.
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección Sobre Nosotros-->
+    <section class="AboutUs">
+        <div class="subAboutUs">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>
+                <br>Conócenos un poco más viendo estos videos acerca de quienes somos y qué ofrecemos
+            </p>
+        </div>
+
+        <div class="containerAU">
+            <div class="boxAU">
+                <h3>About The Team</h3>
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/HGEYb3Vnld8?si=iIcKBarxaEH2-34h" title="Youtube Video Team" frameborder="0"></iframe>
+            </div>
+
+            <div class="boxAU">
+                <h3>About the Product</h3>
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/ZcFmhvb2ZAc" title="Youtube Video Product" frameborder="0"></iframe>
             </div>
         </div>
     </section>
@@ -225,8 +241,8 @@
         <section class="containerD">
             <div class="boxD">
                 <p>Escoja la modalidad de descarga<br></p>
-                <img src="images/androidDownload.png" alt="">
-                <img src="images/iosDownload.png" alt="">
+                <a href="login.html"><img src="images/androidDownload.png" alt=""></a>
+                <a href="login.html"><img src="images/iosDownload.png" alt=""></a>
             </div>
 
             <div class="boxD">
@@ -235,7 +251,7 @@
         </section>
     </section>
 
-    <script src="scripts/menu.js"></script>
+    <script src="scripts/main.js"></script>
 
 </main>
 <!--Pie de pagina-->
